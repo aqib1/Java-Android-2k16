@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="rectangle">
+        <stroke
+            android:color="@color/colorBlack"
+            android:width="@dimen/slidingdrawer_handler_stroke_width"
+            ></stroke>
+        <solid android:color="@color/colorLightBlack"></solid>
+        <corners android:radius="2dp"></corners>
+    </shape>
+
+</item>
+</selector>

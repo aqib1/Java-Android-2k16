@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/LinearLayout_top_banner_height"
+    android:background="@color/LinearLayout_top_banner_color"
+    android:layout_margin="@dimen/LinearLayout_top_banner_margin"
+    >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/TextView_companyName"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EditText_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_username"
+        android:hint="@string/EditText_username_hint"
+        />
+    <EditText
+    android:inputType="textPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/et_password"
+    android:maxLength="@integer/et_password_maxLength"
+    android:hint="@string/EditText_password_hint"
+    />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_cpassword"
+        android:maxLength="@integer/et_password_maxLength"
+        android:hint="@string/EditText_cpassword_hint"
+        />
+
+    <EditText
+        android:id="@+id/contactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EditText_contactNumber"
+        android:inputType="number"
+        android:maxLength="@integer/contactNumber_maxLength" />
+
+    <Button
+            android:id="@+id/btn_signup"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/btn_signup_text"
+           android:background="@color/LinearLayout_top_banner_color"
+           android:textColor="@color/white"
+           android:layout_margin="@dimen/LinearLayout_top_banner_margin"
+           />
+
+</LinearLayout>

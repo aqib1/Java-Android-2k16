@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="customlist_item_img_width">50dp</dimen>
+    <dimen name="customlist_item_img_height">50dp</dimen>
+    <dimen name="customlist_item_title_textsize">30sp</dimen>
+</resources>

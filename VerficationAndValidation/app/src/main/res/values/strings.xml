@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">VerficationAndValidation</string>
+    <string name="signup_edittext_name_hint">enter your name</string>
+    <string name="signup_edittext_password_hint">Enter your password</string>
+    <string name="btn_submit_text">submit</string>
+</resources>

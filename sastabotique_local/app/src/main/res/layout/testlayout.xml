@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    >
+<EditText
+    android:text="Hi there"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="40sp"
+    android:padding="10dp"
+    android:gravity="center"
+    ></EditText>
+</LinearLayout>
+    <SlidingDrawer
+        android:id="@+id/sd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:handle="@+id/auth_handle"
+        android:content="@+id/content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="handle"
+            android:id="@+id/auth_handle"
+            />
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/content"
+              android:orientation="vertical"
+              android:background="@drawable/splash_background"
+              >
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="Bye there"
+                  android:textSize="40sp"
+                  android:layout_gravity="center"
+                  />
+          </LinearLayout>
+    </SlidingDrawer>
+</FrameLayout>

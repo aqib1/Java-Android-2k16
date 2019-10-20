@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="LinearLayout_display_weightSum">20</integer>
+    <integer name="et_password_maxLength">9</integer>
+    <integer name="contactNumber_maxLength">11</integer>
+</resources>

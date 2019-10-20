@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Great Sms</string>
+    <string name="product_by">By GreatSms Technologies</string>
+    <string name="web_url">www.thegreatsol.com</string>
+    <string name="hint_path_of_file">Path to Contacts File</string>
+    <string name="hint_enter_message">Enter Message</string>
+    <string name="btn_start_sending">Start Sending</string>
+    <string name="btn_stop_sending">Stop Sending</string>
+    <string name="copyrights">\u00A9 Copyright 2017 Developed By GreatSol Technologies</string>
+    <string name="phone_number">+92-308-4837817</string>
+</resources>

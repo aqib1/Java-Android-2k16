@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_name_font">70sp</dimen>
+    <dimen name="app_name_water_mark_font">55sp</dimen>
+    <dimen name="product_by_font">20sp</dimen>
+    <dimen name="web_url_font">25sp</dimen>
+    <dimen name="copyrights_font">12sp</dimen>
+    <dimen name="message_box_height">120dp</dimen>
+    <dimen name="phone_number_size">30sp</dimen>
+</resources>

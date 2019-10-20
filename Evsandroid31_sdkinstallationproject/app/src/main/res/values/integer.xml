@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="customlist_parent_weightsum">100</integer>
+    <integer name="customlist_child_img_weight">10</integer>
+    <integer name="customlist_child_title_weight">90</integer>
+</resources>

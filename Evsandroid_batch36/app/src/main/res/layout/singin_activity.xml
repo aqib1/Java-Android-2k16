@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your name"
+        android:id="@+id/username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        />
+
+    <Button
+        android:id="@+id/btn_sigin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtnlayout"
+        android:text="Sign In" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentContainer"
+        android:orientation="vertical"
+        >
+        <!--<fragment
+            android:id="@+id/fragment"
+            android:name="com.evs.testapplication.evsandroid_batch36.NotificationFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/notificationfragment_layout" />-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Evsandroid31_sdkinstallationproject</string>
+    <string name="tb_torch_on_text">Torch On</string>
+    <string name="tb_torch_off_text">Torch Off</string>
+</resources>

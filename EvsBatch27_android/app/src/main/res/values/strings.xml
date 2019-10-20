@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EvsBatch27_android</string>
+    <string name="EditText_displayOutput_hint">Enter your no</string>
+    <string name="EditText_four_text">4</string>
+    <string name="TextView_companyName">ABC</string>
+    <string name="EditText_username_hint">enter your name</string>
+    <string name="EditText_password_hint">enter your password</string>
+    <string name="EditText_cpassword_hint">confirm password</string>
+    <string name="EditText_email">enter your email</string>
+    <string name="EditText_contactNumber">enter your contact number</string>
+    <string name="btn_signup_text">Signup</string>
+</resources>

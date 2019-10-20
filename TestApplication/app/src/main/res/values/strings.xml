@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="TEXT_VIEW_MAINACTIVITY_HELLO">Hello</string>
+</resources>

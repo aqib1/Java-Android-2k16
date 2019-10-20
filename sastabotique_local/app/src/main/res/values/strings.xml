@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sastabotique</string>
+    <string name="signin_btn_text">Sign in</string>
+    <string name="register_btn_text">Register</string>
+    <string name="hint_edittext_password">password</string>
+    <string name="r_hint_edittext_password">enter password</string>
+    <string name="hint_edittext_userid">userid / email</string>
+    <string name="r_hint_edittext_userid">enter [userid / email]</string>
+    <string name="regitertext_textview_text">Register</string>
+</resources>

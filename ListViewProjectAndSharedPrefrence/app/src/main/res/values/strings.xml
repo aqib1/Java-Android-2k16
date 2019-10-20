@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListViewProject</string>
+    <string name="sharedPreferenceName">abc</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="EditText_displayOutput_width">350dp</dimen>
+    <dimen name="LinearLayout_top_banner_height">50dp</dimen>
+    <dimen name="LinearLayout_top_banner_margin">5dp</dimen>
+</resources>

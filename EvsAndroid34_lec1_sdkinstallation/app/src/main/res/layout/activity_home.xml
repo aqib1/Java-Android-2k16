@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HI there"
+        android:textSize="50sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameInput"
+        />
+
+    <!--<fragment
+        android:id="@+id/fragment2"
+        android:name="com.evs.testapplication.evsandroid34_lec1_sdkinstallation.MyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragmentContainer"
+    android:orientation="vertical"
+    ></LinearLayout>
+</LinearLayout>
